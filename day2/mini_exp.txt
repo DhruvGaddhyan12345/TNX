@@ -1,0 +1,19 @@
+# Mini Exploration
+
+## Why is the paper "Attention Is All You Need" considered a landmark in AI?
+
+The paper introduced the Transformer architecture, which replaced recurrent networks with self-attention mechanisms. It demonstrated that models could process sequences more efficiently and capture long-range dependencies better than RNNs and LSTMs. This breakthrough became the foundation of modern NLP systems and large language models.
+
+## How did Transformers enable the rise of Large Language Models?
+
+Transformers allow highly parallelized training and can efficiently learn from massive datasets. Their ability to capture contextual relationships across long sequences enabled the development of models such as BERT, GPT, Gemini, and other large language models. This scalability made it possible to train models with billions of parameters.
+
+## Give two examples outside NLP where Attention mechanisms are used today.
+
+### Computer Vision
+
+Vision Transformers (ViTs) use attention to analyze relationships between different image regions. They are widely used for image classification, object detection, and image retrieval tasks.
+
+### Remote Sensing and Satellite Imagery
+
+Attention mechanisms are used to identify important spatial and spectral features in satellite images. They help improve land-cover classification, change detection, and cross-modal remote sensing retrieval systems.
