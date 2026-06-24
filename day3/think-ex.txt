@@ -1,0 +1,33 @@
+Kaggle Thinking Exercise
+1. If two participants use the same model, why can one outperform the other?
+
+Because the quality of features, preprocessing, validation strategy, and understanding of the dataset often matter more than the model itself. Better EDA leads to better decisions.
+
+2. Why is feature engineering often called the secret sauce of Kaggle?
+
+Feature engineering creates more informative inputs for the model. Strong features can dramatically improve performance even when using simple algorithms.
+
+3. Why should you inspect the validation split carefully?
+
+A poor validation split may not represent the real test distribution. This can lead to misleading performance estimates and overfitting.
+
+4. What mistakes during EDA can lead to misleading results?
+
+Ignoring missing values, overlooking duplicates, failing to detect leakage, using non-representative samples, and relying only on accuracy in imbalanced datasets.
+
+Mini Exploration
+What is Data-Centric AI?
+
+Data-Centric AI focuses on improving dataset quality rather than continuously increasing model complexity. The goal is to create cleaner labels, reduce noise, and improve data consistency.
+
+Why do top Kaggle competitors spend significant time on EDA?
+
+EDA helps uncover hidden patterns, leakage, class imbalance, and data quality issues. These insights often produce larger gains than changing models.
+
+What is data leakage and why is it dangerous?
+
+Data leakage occurs when information unavailable during real-world prediction accidentally enters training. It produces unrealistically high validation scores and poor real-world performance.
+
+Reflection
+
+The most surprising aspect of EDA is how often data problems have a larger impact than model choice. Detecting label errors and leakage can significantly improve results without changing algorithms. I believe data leakage is one of the hardest issues to detect because it may not be obvious from the dataset structure. Strong data understanding helps researchers build trustworthy models and avoid incorrect conclusions. In hackathons and Kaggle competitions, EDA enables better feature engineering, cleaner validation strategies, and more informed modeling decisions. This often leads to higher performance than simply using larger models. Understanding the data first helps ensure that models learn meaningful patterns rather than noise.

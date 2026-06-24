@@ -1,0 +1,60 @@
+Noise Sources
+Informal Language
+u
+ur
+gr8
+msg
+Special Characters
+!!!
+$$$
+???
+URLs
+http://...
+Phone Numbers
+9876543210
+Leakage Risks
+Duplicate Messages
+
+Same message appears in train and test.
+
+Example:
+
+Congratulations! You won $1000.
+
+Model memorizes it.
+
+Near Duplicates
+Win cash now!
+Win cash today!
+
+Can leak information.
+
+Modeling Challenges
+Class Imbalance
+
+Spam minority class.
+
+Vocabulary Variation
+
+Many spellings:
+
+free
+FREE
+FrEe
+Short Text
+
+Little context available.
+
+Rare Tokens
+
+Phone numbers, coupon codes, URLs.
+
+Suggested Solutions
+Problem	Solution
+Duplicates	Remove duplicates
+Class imbalance	Class weights / SMOTE
+Noise	Text cleaning
+Rare words	Subword tokenization
+URLs	Replace with URL token
+Numbers	Replace with NUMBER token
+Short texts	Use TF-IDF or transformer embeddings

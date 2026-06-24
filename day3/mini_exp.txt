@@ -1,0 +1,12 @@
+Mini Exploration
+What is Data-Centric AI?
+
+Data-Centric AI focuses on systematically improving the quality of data instead of continuously increasing model complexity. The approach emphasizes better labels, cleaner datasets, and consistent annotations. High-quality data often produces larger improvements than larger models.
+
+Why do Top Kaggle Competitors Spend Significant Time on EDA?
+
+EDA helps competitors understand data distributions, identify hidden patterns, detect leakage, and uncover quality issues. These insights guide feature engineering and validation strategies. As a result, EDA often provides a competitive advantage.
+
+What is Data Leakage and Why is it Dangerous?
+
+Data leakage occurs when information unavailable during real-world prediction is accidentally included during training. This leads to unrealistically high validation performance. Models affected by leakage usually perform poorly when deployed on truly unseen data.
